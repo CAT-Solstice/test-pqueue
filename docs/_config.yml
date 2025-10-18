@@ -1,0 +1,10 @@
+title: When O3 is 2x slower than O2
+description: An deep dive into a pathological case.
+
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'

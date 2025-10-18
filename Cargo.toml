@@ -1,0 +1,19 @@
+[package]
+name = "test-pqueue"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[dev-dependencies]
+rand = "0.9.*"
+criterion = "0.7.*"
+
+[profile.release]
+debug = 0
+codegen-units = 1
+lto = "thin"
+
+[[bench]]
+name = "pqueue_bench"
+harness = false

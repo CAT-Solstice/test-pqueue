@@ -1,0 +1,139 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* GitHub Dark Mode Colors - Force override */
+body {
+  background-color: #0d1117 !important;
+  color: #c9d1d9 !important;
+}
+
+/* Links */
+a {
+  color: #58a6ff !important;
+}
+
+a:hover {
+  color: #79c0ff !important;
+}
+
+/* Code inside links should look like links */
+a code {
+  color: inherit !important;
+  background-color: #1f2630 !important;
+}
+
+a:hover code {
+  color: inherit !important;
+}
+
+/* Inline code (single backticks) */
+code {
+  background-color: #1f2630 !important;
+  color: #c9d1d9 !important;
+  border-color: #30363d !important;
+  padding: 0.1em 0.4em 0.2em !important;
+  margin: 0 !important;
+  font-size: 95% !important;
+  border-radius: 6px !important;
+}
+
+/* Code blocks (triple backticks) */
+pre {
+  background-color: #161b22 !important;
+  border-color: #30363d !important;
+  padding: 16px !important;
+  overflow: auto !important;
+  font-size: 90% !important;
+  line-height: 1.2 !important;
+  border-radius: 6px !important;
+}
+
+pre code {
+  padding: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* Highlighted code blocks */
+.highlight,
+.highlight pre,
+div.highlight {
+  background-color: #161b22 !important;
+  border: 1px solid #30363d !important;
+  border-radius: 6px !important;
+}
+
+.highlight pre {
+  border: none !important;
+}
+
+/* Syntax highlighting - GitHub Dark theme */
+.highlight .c  { color: #8b949e !important; font-weight: normal !important; } /* Comment */
+.highlight .c1 { color: #8b949e !important; font-weight: normal !important; } /* Comment single line */
+.highlight .cm { color: #8b949e !important; font-weight: normal !important; } /* Comment multiline */
+.highlight .k  { color: #f47067 !important; font-weight: normal !important; } /* Keyword */
+.highlight .kc { color: #79c0ff !important; font-weight: normal !important; } /* Keyword constant */
+.highlight .kd { color: #f47067 !important; font-weight: normal !important; } /* Keyword declaration */
+.highlight .kn { color: #f47067 !important; font-weight: normal !important; } /* Keyword namespace */
+.highlight .kp { color: #79c0ff !important; font-weight: normal !important; } /* Keyword pseudo */
+.highlight .kr { color: #f47067 !important; font-weight: normal !important; } /* Keyword reserved */
+.highlight .kt { color: #ffa657 !important; font-weight: normal !important; } /* Keyword type */
+.highlight .n  { color: #c9d1d9 !important; font-weight: normal !important; } /* Name */
+.highlight .na { color: #79c0ff !important; font-weight: normal !important; } /* Name attribute */
+.highlight .nb { color: #79c0ff !important; font-weight: normal !important; } /* Built-in */
+.highlight .nc { color: #ffa657 !important; font-weight: normal !important; } /* Class name */
+.highlight .no { color: #79c0ff !important; font-weight: normal !important; } /* Name constant */
+.highlight .nd { color: #6cb6ff !important; font-weight: normal !important; } /* Name decorator */
+.highlight .ni { color: #ffa657 !important; font-weight: normal !important; } /* Name entity */
+.highlight .ne { color: #ffa657 !important; font-weight: normal !important; } /* Name exception */
+.highlight .nf { color: #d2a8ff !important; font-weight: normal !important; } /* Function name */
+.highlight .nl { color: #79c0ff !important; font-weight: normal !important; } /* Name label */
+.highlight .nn { color: #ffa657 !important; font-weight: normal !important; } /* Name namespace - types/enums in Rust */
+.highlight .nx { color: #c9d1d9 !important; font-weight: normal !important; } /* Name other */
+.highlight .py { color: #79c0ff !important; font-weight: normal !important; } /* Name property */
+.highlight .nt { color: #7ee787 !important; font-weight: normal !important; } /* Name tag */
+.highlight .nv { color: #c9d1d9 !important; font-weight: normal !important; } /* Name variable */
+.highlight .bp { color: #79c0ff !important; font-weight: normal !important; } /* Built-in pseudo */
+.highlight .o  { color: #d2a8ff !important; font-weight: normal !important; } /* Operator */
+.highlight .ow { color: #d2a8ff !important; font-weight: normal !important; } /* Operator word */
+.highlight .p  { color: #ffffff !important; font-weight: normal !important; } /* Punctuation */
+.highlight .m  { color: #79c0ff !important; font-weight: normal !important; } /* Number */
+.highlight .mb { color: #79c0ff !important; font-weight: normal !important; } /* Number bin */
+.highlight .mf { color: #79c0ff !important; font-weight: normal !important; } /* Number float */
+.highlight .mh { color: #79c0ff !important; font-weight: normal !important; } /* Number hex */
+.highlight .mi { color: #79c0ff !important; font-weight: normal !important; } /* Number integer */
+.highlight .mo { color: #79c0ff !important; font-weight: normal !important; } /* Number oct */
+.highlight .s  { color: #a5d6ff !important; font-weight: normal !important; } /* String */
+.highlight .s1 { color: #a5d6ff !important; font-weight: normal !important; } /* String single */
+.highlight .s2 { color: #a5d6ff !important; font-weight: normal !important; } /* String double */
+.highlight .sb { color: #a5d6ff !important; font-weight: normal !important; } /* String backtick */
+.highlight .sc { color: #a5d6ff !important; font-weight: normal !important; } /* String char */
+.highlight .sd { color: #a5d6ff !important; font-weight: normal !important; } /* String doc */
+.highlight .se { color: #79c0ff !important; font-weight: normal !important; } /* String escape */
+.highlight .sh { color: #a5d6ff !important; font-weight: normal !important; } /* String heredoc */
+.highlight .si { color: #a5d6ff !important; font-weight: normal !important; } /* String interpol */
+.highlight .sx { color: #a5d6ff !important; font-weight: normal !important; } /* String other */
+.highlight .sr { color: #7ee787 !important; font-weight: normal !important; } /* String regex */
+.highlight .ss { color: #a5d6ff !important; font-weight: normal !important; } /* String symbol */
+.highlight .fm { color: #d2a8ff !important; font-weight: normal !important; } /* Function magic */
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  color: #c9d1d9 !important;
+  border-bottom-color: #21262d !important;
+  font-weight: 600;
+}
+
+/* Horizontal rules */
+hr {
+  background-color: #21262d !important;
+  border: 0 !important;
+}
+
+/* Blockquotes */
+blockquote {
+  color: #8b949e !important;
+  border-left-color: #3b434b !important;
+}
